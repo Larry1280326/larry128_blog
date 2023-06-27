@@ -1,0 +1,37 @@
+<div class="accordion">
+  <details class="accordion-item">
+    <summary>Title of Movie <span class="marker"></span></summary>
+    <div class="accordion-content" style="background-color: rgb(247, 247, 173)">
+      <p>
+        <img src="/images/xxx.jpg" alt="xxx_poster" />
+        <br />
+
+        <br />
+        <br />
+
+        <br />
+        <br />
+
+        <br />
+        <br />
+
+        <br />
+        <br />
+
+        <br />
+        <br />
+      </p>
+    </div>
+  </details>
+</div>
+
+
+
+<div>
+  <h1 style="font-weight: bolder">HKUST spring 2023</h1>
+  <p> 
+    <p><a href="https://drive.google.com/drive/folders/15A54rvk97eFdMBUoysk5wC4pEzuXSNkc?usp=share_link">MATH 1014</p>
+    <p><a href="https://drive.google.com/drive/folders/1NXdbgoiA_rKck1dCs6y12-Y6HBo_4zYP?usp=share_link">ELEC 1200</p>
+    <p><a href="https://drive.google.com/drive/folders/1w2Ks2hY99FQY5NmDx2R-vP8HcNheDn9c?usp=share_link">CORE 1231</p>
+    <p><a href="https://drive.google.com/drive/folders/1VJNCF8N9ZaFK6u915nVEZUb3qady7Yso?usp=share_link">CORE 1403A (very hea)</p>
+<div>

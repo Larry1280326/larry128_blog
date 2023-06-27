@@ -1,0 +1,113 @@
+
+*{
+     padding: 0;
+     margin: 1px;
+     box-sizing: border-box;
+     
+}
+
+h1{
+     font-family: monospace;
+     font-weight: 1000;
+}
+
+a{
+     font-family: "Comic Sans MS", "Comic Sans";
+     font: size 50px;
+     margin: 5px;
+}
+
+h2{
+     font-family: monospace;
+     font-weight: 1000;
+}
+
+img {
+     width: 35%; height: auto;
+     height:auto; max-width: 200px;
+     object-fit: cover;
+     float: right;
+     margin: 1%;
+     border-radius: 5%;
+}
+.accordion{
+     top: 150px;
+     background-color: rgb(103, 195, 238);
+     border-radius: 5px;
+}
+
+.accordion-item summary{
+     cursor: pointer;
+     position: relative;
+     height: 48px;
+     margin-top: 10px;
+     font-family: "Comic Sans MS", "Comic Sans";
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.accordion-item summary::marker{
+     font-size: 0;
+}
+
+.marker{
+     position: absolute;
+     top: calc(50% -6px);
+     right: 24px;    
+}
+
+.marker:before, .marker:after{
+     content: '';
+     position: absolute;
+     height: 12px;
+     width: 2px;
+     top:0;
+     left: 0;
+     background-color: rgb(0, 0, 0);
+     transform: rotate(90deg);
+     transition: all linear 0.25s;
+}
+
+.accordion-item:not([open]) .marker:after{
+     transform: rotate(0deg);
+}
+
+.accordio-content {
+     background-color: rgb(241, 241, 180);
+     margin: 1%;
+}
+
+.accordio-content p{
+     padding: 100px 100px;
+}
+
+.accordion-item:open .accordio-content {
+     height: 86px;
+}
+
+.glass{
+     position:relative;
+     background: rgba(255, 255, 255, 0.538);
+     box-shadow: 0 25px 45px rgba(0, 0,0, .2);
+     border-radius: 10px;
+     backdrop-filter: blur(5px);
+     border: 2px solid rgba(255, 255, 255, 0.5);
+     border-right: 2px solid rgba(255, 255, 255, .2);
+     border-bottom: 2px solid rgba(255, 255, 255, .2);
+}
+
+.iframe{
+     float: center;
+}
+
+.enlarge-link {
+     font-size: 16px;
+     transition: font-size 0.3s ease-in-out;
+     display: inline-block;
+     text-decoration: none;
+   }
+   
+   .enlarge-link:hover {
+     font-size: 20px;
+   }
+   

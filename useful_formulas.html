@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Useful Formulas</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+    <h1>Useful Formulas</h1>
+    <a href="index.html">Go back</a>
+    <br />
+    <div style="float: left; margin: 2%">
+      Calculus
+      <br />
+      <div style="margin: 5%">
+        Quadratic Formula
+        <br />
+        \(ax^2 + bx +c =0\)
+        <br />
+        \(x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}\)
+      </div>
+      <div style="margin: 5%">
+        Compound Angle Formulas
+        <br />
+        \(\sin{(x+y)}=\sin{x}\hspace{5px} \cos{y}+\sin{y}\hspace{5px} \cos{x}\)
+        <br />
+        \(\sin{(x-y)}=\sin{x}\hspace{5px} \cos{y}-\sin{y}\hspace{5px} \cos{x}\)
+        <br />
+        \(\cos{(x+y)}=\cos{x}\hspace{5px} \cos{y}-\sin{y}\hspace{5px} \sin{x}\)
+        <br />
+        \(\cos{(x-y)}=\cos{x}\hspace{5px} \cos{y}+\sin{y}\hspace{5px} \sin{x}\)
+        <br />
+        \(\tan{(x+y)}=\frac{\tan{x}+\tan{y}}{1-\tan{x}\hspace{5px} \tan{y}} \)
+        <br />
+        \(tan{(x-y)}=\frac{\tan{x}-\tan{y}}{1+\tan{x}\hspace{5px} \tan{y}} \)
+      </div>
+      <div style="margin: 5%">
+        Products-to-sums Formulas
+        <br />
+        \(\sin{x}\hspace{5px} \sin{y}=
+        \frac{1}{2}\hspace{5px}(\cos{(x-y)}-\cos{(x+y)})\)
+        <br />
+        \(\cos{x}\hspace{5px} \cos{y}=
+        \frac{1}{2}\hspace{5px}(\cos{(x+y)}+\cos{(x-y)})\)
+        <br />
+        \(\sin{x}\hspace{5px} \cos{y}=
+        \frac{1}{2}\hspace{5px}(\sin{(x+y)}+\cos{(x-y)})\)
+      </div>
+      <div style="margin: 5%">
+        Sums-to-products Formulas
+        <br />
+        \(\sin{x}+\sin{y}=2\hspace{5px}\sin{(\frac{x+y}{2})}\hspace{5px}
+        \cos{(\frac{x-y}{2})} \)
+        <br />
+        \(\sin{x}-\sin{y}=2\hspace{5px}\sin{(\frac{x-y}{2})}\hspace{5px}
+        \cos{(\frac{x+y}{2})} \)
+        <br />
+        \(\cos{x}+\cos{y}=-2\hspace{5px}\sin{(\frac{x+y}{2})}\hspace{5px}
+        \sin{(\frac{x-y}{2})} \)
+        <br />
+        \(\cos{x}+\cos{y}=2\hspace{5px}\cos{(\frac{x+y}{2})}\hspace{5px}
+        \cos{(\frac{x-y}{2})} \)
+      </div>
+      <div style="margin: 5%">
+        Reduction Formulas
+        <br />
+        \(\int \sin^n{x} \hspace{5px}dx=-\frac{1}{n}\hspace{5px}
+        \sin^{n-1}{x}\hspace{5px} \cos{x}+\frac{n-1}{n} \hspace{5px} \int
+        \sin^{n-2}{x} \hspace{5px} dx \)
+        <br />
+        \(\int \cos^n{x} \hspace{5px}dx=\frac{1}{n}\hspace{5px}
+        \cos^{n-1}{x}\hspace{5px} \sin{x}+\frac{n-1}{n} \hspace{5px} \int
+        \cos^{n-2}{x} \hspace{5px} dx \)
+        <br />
+        \(\int \sec^n{x} \hspace{5px}dx=\frac{1}{n-1}\hspace{5px} \sec^{n-2}{x}
+        \hspace{5px} \tan{x} +\frac{n-2}{n-1}\hspace{5px} \int \sec^{n-2}{x}
+        \hspace{5px} dx \)
+        <br />
+        \(\int \csc^n{x} \hspace{5px}dx=-\frac{1}{n-1}\hspace{5px} \csc^{n-2}{x}
+        \hspace{5px} \cot{x} -\frac{n-2}{n-1}\hspace{5px} \int \csc^{n-2}{x}
+        \hspace{5px} dx \)
+        <br />
+        \(\int \tan^n{x} \hspace{5px}dx=\frac{1}{n-1} \hspace{5px}
+        \tan^{n-1}{x}-\int \tan^{n-2}{x} \hspace{5px} dx \)
+      </div>
+    </div>
+
+    <div style="float: left; margin: 2%">
+      Physics
+      <br />
+      <div style="margin: 5%">
+        Lorentz Factor
+        <br />
+        \(\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}\)
+      </div>
+      <div style="margin: 5%">
+        Time Dilation
+        <br />
+        \(t=\gamma \hspace{5px} t_{0}=\frac{t_{0}}{\sqrt{1-\frac{v^2}{c^2}}}\)
+      </div>
+      <div style="margin: 5%">
+        Length Contraction
+        <br />
+        \(l=\frac{l_{0}}{\gamma}=l_{0} \hspace{5px} \sqrt{1-\frac{v^2}{c^2}} \)
+      </div>
+      <div style="margin: 5%">
+        Relative Velocity
+        <br />
+        \(u^{'} = \frac{u+v}{1+\frac{uv}{c^2}} \)
+      </div>
+      <div style="margin: 5%">
+        Relativistic Energy
+        <br />
+        \(E=\gamma \hspace{5px} m \hspace{5px} c^2 = \frac{m
+        c^2}{\sqrt{1-\frac{v^2}{c^2}}} \)
+      </div>
+      <div style="margin: 5%">
+        Relativistic Momentum
+        <br />
+        \(p=\gamma \hspace{5px} m \hspace{5px} v = \frac{m
+        v}{\sqrt{1-\frac{v^2}{c^2}}} \)
+      </div>
+      <div style="margin: 5%">
+        Energy-momentum
+        <br />
+        \(E^2 = p^2 c^2 + m^2 c^4\)
+      </div>
+      <div style="margin: 5%">
+        Mass-energy
+        <br />
+        \(E = m c^2\)
+      </div>
+      <div style="margin: 5%">
+        Relativistic Kinetic Energy
+        <br />
+        \(K = (\gamma -1)\hspace{5px} mc^2 = (\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}
+        -1)\hspace{5px} mc^2\)
+      </div>
+      <div style="margin: 5%">
+        Relativistic Doppler Effect
+        <br />
+        \(\frac{\lambda}{\lambda_{0}} =\frac{f_{0}}{f}=
+        \sqrt(\frac{1+\frac{v}{c}}{1-\frac{v}{c}}) \)
+      </div>
+      <div style="margin: 5%">
+        Photon Energy
+        <br />
+        \(E=hf = pc\)
+      </div>
+      <div style="margin: 5%">
+        Photon Momentum
+        <br />
+        \(p=\frac{h}{\lambda}=\frac{E}{c} \)
+      </div>
+    </div>
+  </body>
+</html>
