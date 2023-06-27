@@ -4,10 +4,10 @@ using namespace std;
 int main() {
 	// get matrix A
 	int num_col_A, num_row_A;
-	cout << "Enter the number of col for A: ";
-	cin >> num_col_A;
 	cout << "Enter the number of row for A: ";
 	cin >> num_row_A;
+	cout << "Enter the number of col for A: ";
+	cin >> num_col_A;
 	int A[100][100];
 	int i;
 	for (i = 0; i < num_row_A; i++) {
@@ -29,10 +29,10 @@ int main() {
 
 	//get matrix B
 	int num_col_B, num_row_B;
-	cout << "Enter the number of col for B: ";
-	cin >> num_col_B;
 	cout << "Enter the number of row for B: ";
 	cin >> num_row_B;
+	cout << "Enter the number of col for B: ";
+	cin >> num_col_B;
 	int B[100][100];
 	for (i = 0; i < num_row_B; i++) {
 		int j;
@@ -73,7 +73,7 @@ int main() {
 		int j;
 		cout << endl;
 		for (j = 0; j < num_col_B; j++) {
-			cout << B[i][j] << " ";
+			cout << C[i][j] << " ";
 		}
 	}
 	cout << endl << "}" << endl;
