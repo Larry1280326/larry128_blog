@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product of two matrices</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+    <h1>Product of two matrices</h1>
+    <div>
+      <h2>Instructions</h2>
+      <p>
+        1. type the dimensions of matrix A (rows, columns).
+        <br />
+        2. type the elements of matrix one by one.
+        <br />
+        3. repeat the above proceduces for matrix B.
+        <br />
+        For example, if you want to compute \(\begin{pmatrix} 1 & 2 \\ 3 & 4
+        \end{pmatrix} \begin{pmatrix} 5 & 6 & 7 \\ 8 & 9 & 10 \end{pmatrix}\),
+        <br />
+        the first matrix has 2 rows and 2 columns so we type: 2 -> return -> 2
+        -> return,
+        <br />then enter all the elements in the first matrix: 1 -> return -> 2
+        -> return ->3 -> return ->4 -> return.
+        <br />
+        For the second matrix, it has 2 rows and 3 columns, so we type: 2 ->
+        return -> 3 -> return,
+        <br />
+        then enter all the elements in the second matrix: 5 -> return -> 6 ->
+        return -> 7 -> return -> 8 -> return -> 9 -> return -> 10 -> return.
+        <br />
+        Finally, the product will be shown in the program: \(\begin{pmatrix} 21
+        & 24 & 27 \\ 47 & 54 & 61 \end{pmatrix}\)
+      </p>
+    </div>
+    <div><py-script src="product_matrix.py"></py-script></div>
+    <div>
+      <a href="product_matrix.html" style="float: right">reset</a
+      ><a href="index.html">go back</a>
+    </div>
+    <br />
+    <div>
+      <a href="product_matrix.py"
+        >source code (it is recommended to download the source code and run it
+        on your own computer)</a
+      >
+      <br />
+      <br />
+      <a href="product_matrix.cpp">in case you want a .cpp rather than a .py</a>
+    </div>
+    <br />
+    <br />
+  </body>
+</html>
