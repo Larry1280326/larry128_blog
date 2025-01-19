@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HKUST GPA Calculator</title>
+    <script src="calculator.js"></script>
+    <style>
+      body {
+        background-color: blanchedalmond;
+        font-family: "Courier New", Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        height: 100vh; /* Full height of the viewport */
+        margin: 0; /* Remove default margin */
+      }
+
+      table {
+        border-collapse: collapse;
+        margin-top: 20px; /* Space above the table */
+      }
+
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: hwb(0 86% 14%);
+      }
+
+      h1 {
+        text-align: center; /* Center the heading */
+      }
+
+      button {
+        margin: 5px; /* Space between buttons */
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <a
+        href="https://registry.hkust.edu.hk/resource-library/approved-course-grades-undergraduate"
+        >HKUST GPA Calculator (for UGs)</a
+      >
+    </h1>
+    <table id="dataEntryTable">
+      <thead>
+        <tr>
+          <th>Course Code</th>
+          <th>Credits</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="text" placeholder="Course Code" /></td>
+          <td><input type="number" placeholder="Credits" /></td>
+          <td><input type="text" placeholder="Grade" /></td>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="Course Code" /></td>
+          <td><input type="number" placeholder="Credits" /></td>
+          <td><input type="text" placeholder="Grade" /></td>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="Course Code" /></td>
+          <td><input type="number" placeholder="Credits" /></td>
+          <td><input type="text" placeholder="Grade" /></td>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="Course Code" /></td>
+          <td><input type="number" placeholder="Credits" /></td>
+          <td><input type="text" placeholder="Grade" /></td>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="Course Code" /></td>
+          <td><input type="number" placeholder="Credits" /></td>
+          <td><input type="text" placeholder="Grade" /></td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <button onclick="addRow()">Add Row</button>
+      <button onclick="removeRow()">Remove Row</button>
+      <button onclick="clearEntries()">Clear</button>
+      <button onclick="submit()">Submit</button>
+    </div>
+
+    <p id="GPA"></p>
+  </body>
+</html>
