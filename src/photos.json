@@ -1,0 +1,68 @@
+[
+  {
+    "id": "taipei",
+    "title": "Taipei 🇹🇼",
+    "location": "Taiwan",
+    "date": "2026",
+    "tag": "Travel",
+    "description": "A memorable trip to Taipei exploring the vibrant city, delicious food, and beautiful sights",
+    "photos": [
+      {
+        "src": "images/taipei/IMG_0011.jpg",
+        "title": "Morning Flight to Taipei",
+        "description": "The early morning flight to Taipei offered breathtaking views as we approached the island"
+      },
+      {
+        "src": "images/taipei/IMG_0025.jpg",
+        "title": "Boeing 787 Cabin",
+        "description": "My first time on a Boeing 787 - amazed by the spacious cabin and large windows with stunning sky views"
+      },
+      {
+        "src": "images/taipei/IMG_0034.jpg",
+        "title": "Airport Express Train",
+        "description": "The smooth and comfortable train ride from Taoyuan Airport to Taipei city center"
+      },
+      {
+        "src": "images/taipei/IMG_0054.jpg",
+        "title": "Taipei City View",
+        "description": "First glimpse of Taipei's cityscape from the train window"
+      },
+      {
+        "src": "images/taipei/IMG_0072.jpg",
+        "title": "Taipei Station",
+        "description": "The bustling Taipei Main Station - the transportation hub of the city"
+      },
+      {
+        "src": "images/taipei/IMG_0083.jpg",
+        "title": "City Exploration",
+        "description": "Exploring the vibrant streets and neighborhoods of Taipei"
+      },
+      {
+        "src": "images/taipei/IMG_0084.jpg",
+        "title": "Local Market",
+        "description": "Discovering local flavors at one of Taipei's traditional markets"
+      },
+      {
+        "src": "images/taipei/IMG_0086.jpg",
+        "title": "Street Food",
+        "description": "Sampling delicious Taiwanese street food from night market vendors"
+      },
+      {
+        "src": "images/taipei/IMG_0100.jpg",
+        "title": "Cultural Site",
+        "description": "Visiting one of Taipei's historical and cultural landmarks"
+      },
+      {
+        "src": "images/taipei/IMG_0166.jpg",
+        "title": "Scenic View",
+        "description": "Enjoying panoramic views of Taipei from a scenic viewpoint"
+      },
+      {
+        "src": "images/taipei/IMG_0211.jpg",
+        "title": "Memorable Moment",
+        "description": "A special moment captured during the Taipei adventure"
+      }
+    ]
+  }
+]
+
