@@ -63,6 +63,211 @@
         "description": "A special moment captured during the Taipei adventure"
       }
     ]
+  },
+  {
+    "id": "harbin",
+    "title": "Harbin 🇨🇳",
+    "location": "China",
+    "date": "2025",
+    "tag": "Travel",
+    "description": "A memorable trip to Harbin exploring the winter wonderland and beautiful ice sculptures",
+    "photos": [
+      {
+        "src": "images/harbin/IMG_7827.png",
+        "title": "Winter Landscape",
+        "description": "The stunning winter landscape of Harbin with snow-covered trees and buildings"
+      },
+      {
+        "src": "images/harbin/IMG_7837.png",
+        "title": "Ice Sculpture Park",
+        "description": "Exploring the famous Ice Sculpture Park with intricate ice carvings"
+      },
+      {
+        "src": "images/harbin/IMG_7890.png",
+        "title": "Local Cuisine",
+        "description": "Tasting traditional Harbin dishes and local specialties"
+      },
+      {
+        "src": "images/harbin/IMG_7892.png",
+        "title": "Street View",
+        "description": "The charming streets of Harbin with traditional architecture"
+      },
+      {
+        "src": "images/harbin/IMG_7893.png",
+        "title": "Cultural Site",
+        "description": "Visiting a historical cultural site in Harbin"
+      },
+      {
+        "src": "images/harbin/IMG_7899.png",
+        "title": "Ice Festival",
+        "description": "Experiencing the vibrant Harbin Ice Festival with colorful ice structures"
+      },
+      {
+        "src": "images/harbin/IMG_7914.png",
+        "title": "Snow Sculptures",
+        "description": "Marveling at the detailed snow sculptures created by talented artists"
+      },
+      {
+        "src": "images/harbin/IMG_7922.png",
+        "title": "Winter Activities",
+        "description": "Participating in fun winter activities in the snow-covered parks"
+      },
+      {
+        "src": "images/harbin/IMG_7934.png",
+        "title": "City Lights",
+        "description": "The beautiful city lights of Harbin illuminating the winter night"
+      },
+      {
+        "src": "images/harbin/IMG_7946.png",
+        "title": "Traditional Architecture",
+        "description": "Exploring Harbin's unique blend of traditional and modern architecture"
+      },
+      {
+        "src": "images/harbin/IMG_7970.png",
+        "title": "Winter Wonderland",
+        "description": "The magical winter wonderland that makes Harbin so special"
+      }
+    ]
+  },
+  {
+    "id": "singapore",
+    "title": "Singapore 🇸🇬",
+    "location": "Singapore",
+    "date": "2024",
+    "tag": "Exchange",
+    "description": "A memorable trip to Singapore exploring the modern city, beautiful gardens, and diverse culture",
+    "photos": [
+      {
+        "src": "images/singapore/IMG_4839.png",
+        "title": "Marina Bay Sands",
+        "description": "The iconic Marina Bay Sands hotel with its stunning rooftop infinity pool"
+      },
+      {
+        "src": "images/singapore/IMG_4887.png",
+        "title": "Gardens by the Bay",
+        "description": "Exploring the futuristic Supertree Grove and beautiful floral displays"
+      },
+      {
+        "src": "images/singapore/IMG_4905.png",
+        "title": "Singapore Flyer",
+        "description": "Riding the Singapore Flyer for panoramic views of the city skyline"
+      },
+      {
+        "src": "images/singapore/IMG_4934.png",
+        "title": "Merlion Park",
+        "description": "Visiting the famous Merlion statue, symbol of Singapore"
+      },
+      {
+        "src": "images/singapore/IMG_4968.png",
+        "title": "Chinatown",
+        "description": "Exploring the vibrant Chinatown with its traditional shops and temples"
+      },
+      {
+        "src": "images/singapore/IMG_5017.png",
+        "title": "Little India",
+        "description": "Experiencing the colorful culture and delicious food of Little India"
+      },
+      {
+        "src": "images/singapore/IMG_5044.png",
+        "title": "Sentosa Island",
+        "description": "Relaxing on the beautiful beaches of Sentosa Island"
+      },
+      {
+        "src": "images/singapore/IMG_5053.png",
+        "title": "Hawker Food",
+        "description": "Sampling delicious local dishes at a traditional hawker center"
+      },
+      {
+        "src": "images/singapore/IMG_5060.png",
+        "title": "Singapore Zoo",
+        "description": "Visiting the world-renowned Singapore Zoo with its natural habitats"
+      },
+      {
+        "src": "images/singapore/IMG_5077.png",
+        "title": "Orchard Road",
+        "description": "Shopping along the famous Orchard Road shopping district"
+      },
+      {
+        "src": "images/singapore/IMG_5117.png",
+        "title": "Universal Studios",
+        "description": "Enjoying thrilling rides and entertainment at Universal Studios Singapore"
+      },
+      {
+        "src": "images/singapore/IMG_5125.png",
+        "title": "Night View",
+        "description": "Admiring Singapore's stunning city lights at night"
+      }
+    ]
+  },
+  {
+    "id": "kaohsiung",
+    "title": "Kaohsiung 🇹🇼",
+    "location": "Taiwan",
+    "date": "2023",
+    "tag": "Travel",
+    "description": "A memorable trip to Kaohsiung exploring the vibrant harbor city, modern architecture, and cultural sites",
+    "photos": [
+      {
+        "src": "images/kaohsiung/IMG_7389.png",
+        "title": "Kaohsiung Harbor",
+        "description": "The beautiful harbor of Kaohsiung with ships and waterfront views"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7400.png",
+        "title": "Dome of Light",
+        "description": "Visiting the stunning Dome of Light, the world's largest glass artwork"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7421.png",
+        "title": "Pier-2 Art Center",
+        "description": "Exploring the creative Pier-2 Art Center with unique installations"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7425.png",
+        "title": "Lotus Pond",
+        "description": "The scenic Lotus Pond with its iconic dragon and tiger pagodas"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7448.png",
+        "title": "85 Sky Tower",
+        "description": "The towering 85 Sky Tower offering panoramic city views"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7459.png",
+        "title": "Love River",
+        "description": "A peaceful stroll along the beautiful Love River waterfront"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7472.png",
+        "title": "Local Cuisine",
+        "description": "Tasting delicious local Kaohsiung dishes and seafood"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7477.png",
+        "title": "Cultural Site",
+        "description": "Visiting one of Kaohsiung's historical cultural landmarks"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7484.png",
+        "title": "Night Market",
+        "description": "Exploring the lively night markets of Kaohsiung"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7497.png",
+        "title": "Modern Architecture",
+        "description": "Admiring Kaohsiung's contemporary architectural designs"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7511.png",
+        "title": "City Park",
+        "description": "Relaxing in one of Kaohsiung's beautiful urban parks"
+      },
+      {
+        "src": "images/kaohsiung/IMG_7517.png",
+        "title": "Memorable Moments",
+        "description": "Capturing special moments during the Kaohsiung adventure"
+      }
+    ]
   }
 ]
 

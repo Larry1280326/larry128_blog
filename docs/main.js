@@ -258,11 +258,45 @@ function setupNav() {
   if (defaultBtn) defaultBtn.classList.add("nav-link--active");
 }
 
+// Theme management
+function setupTheme() {
+  const themeToggle = document.getElementById('theme-toggle');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+  
+  // Get saved theme or default to dark
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDarkMode = prefersDark.matches;
+  
+  // Set initial theme
+  if (savedTheme === 'light' || (!savedTheme && !prefersDarkMode)) {
+    document.documentElement.setAttribute('data-theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+  
+  // Update toggle button
+  themeToggle.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+  });
+  
+  // Listen for system theme changes
+  prefersDark.addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+      document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+    }
+  });
+}
+
 async function init() {
   document.getElementById("year").textContent =
     new Date().getFullYear().toString();
 
   setupNav();
+  setupTheme();
 
   const photos = await loadJSON("photos.json");
   renderPhotos(photos || []);
